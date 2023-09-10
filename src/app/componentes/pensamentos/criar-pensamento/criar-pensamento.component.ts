@@ -18,6 +18,5 @@ export class CriarPensamentoComponent {
   }
 
   cancelar(){
-    alert("Ação cancelada");
   }
 }
