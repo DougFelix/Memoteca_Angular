@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Pensamento } from '../pensamento/pensamento';
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -6,21 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./listar-pensamento.component.css']
 })
 export class ListarPensamentoComponent {
-  listaPensamentos = [
-    {
-      conteudo: 'I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular, I love Angular,I love Angular, I love Angular, I love Angular,',
-      autoria: 'Douglas',
-      modelo: 'modelo3'
-    },
-    {
-      conteudo: 'Hate is a strong word',
-      autoria: 'Douglas',
-      modelo: 'modelo2'
-    },
-    {
-      conteudo: 'Lets be friends',
-      autoria: 'Douglas',
-      modelo: 'modelo1'
-    }
-  ];
+  listaPensamentos : Pensamento[] = [];
 }
